@@ -1,0 +1,17 @@
+.container{
+    margin-bottom: 340px;
+}
+
+label {
+    font-weight: normal;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.panel-heading {
+    font-size: x-large !important;
+}
+
+.panel-heading span {
+    margin-right: 5px;
+}

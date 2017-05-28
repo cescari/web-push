@@ -1,0 +1,12 @@
+{
+  "prensa": true,
+  "correo": true,
+  "television": true,
+  "vallas": true,
+  "folletos": false,
+  "radio": true,
+  "internet": true,
+  "otro": true,
+  "producto": "y",
+  "rating": "4"
+}

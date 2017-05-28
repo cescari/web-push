@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Push project</title>
+    <script type="text/javascript" src="./push.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./scripts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Emerging Technologies</h1>
+            <p>A new view for the knowledge in technologie</p>
+        </div>
+        <div class="panel panel-warning">
+            <div class="panel-heading"><span class="glyphicon glyphicon-warning-sign"></span>&nbsp;AVISO</div>
+            <div class="panel-body">Esta web emplea cookies para su funcionamiento. B&oacute;rrala (nombre: cescari) si deseas reiniciar el formulario.</div>
+        </div>
+        <div class="well">
+            <form action="http://localhost:3000/" method="post" id="pushProjectForm" name="pushProjectForm">
+                <!-- <div id="c1" name="c1"> -->
+                <div style="font-size: 21px;">Encuesta</div>
+                <div style="margin:10px; font-weight: bold;">
+                    <p>¿C&oacute;mo has conocido nuestro producto?</p>
+                </div>
+                <table id="2093507" class="RadioButtonList">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input id="prensa" type="checkbox" name="prensa" value="true">
+                            </td>
+                            <td>
+                                <label for="prensa">Anuncios en prensa o revista</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="correo" type="checkbox" name="correo" value="true">
+                            </td>
+                            <td>
+                                <label for="correo">Correo ordinario</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="television" type="checkbox" name="television" value="true">
+                            </td>
+                            <td>
+                                <label for="television">Televisión</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="vallas" type="checkbox" name="vallas" value="true">
+                            </td>
+                            <td>
+                                <label for="vallas">Vallas publicitarias</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="folletos" type="checkbox" name="folletos" value="true">
+                            </td>
+                            <td>
+                                <label for="folletos">Folletos/Dípticos</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="radio" type="checkbox" name="radio" value="true">
+                            </td>
+                            <td>
+                                <label for="radio">Radio</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="internet" type="checkbox" name="internet" value="true">
+                            </td>
+                            <td>
+                                <label for="internet">Internet</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="otro" type="checkbox" name="otro" value="true">
+                            </td>
+                            <td>
+                                <label for="otro">Otro</label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- </div>
+            <div id="c2" name="c2"> -->
+                <div style="margin:10px; font-weight: bold;">
+                    <p>¿Nos recomendar&iacute;as?</p>
+                </div>
+                <table id="3453453" class="RadioButtonList">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input id="y" type="radio" name="producto" value="y">
+                            </td>
+                            <td>
+                                <label for="y">Si</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="n" type="radio" name="producto" value="n">
+                            </td>
+                            <td>
+                                <label for="n">No</label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- </div>
+            <div id="c3" name="c3"> -->
+                <div style="margin:10px; font-weight: bold;">
+                    <p>V&oacute;tanos</p>
+                </div>
+                <table id="3453453" class="RadioButtonList">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input id="0" type="radio" name="rating" value="0">
+                            </td>
+                            <td>
+                                <label for="0">0</label>
+                            </td>
+                            <td>
+                                <input id="1" type="radio" name="rating" value="1">
+                            </td>
+                            <td>
+                                <label for="1">1</label>
+                            </td>
+                            <td>
+                                <input id="2" type="radio" name="rating" value="2">
+                            </td>
+                            <td>
+                                <label for="2">2</label>
+                            </td>
+                            <td>
+                                <input id="3" type="radio" name="rating" value="3">
+                            </td>
+                            <td>
+                                <label for="3">3</label>
+                            </td>
+                            <td>
+                                <input id="4" type="radio" name="rating" value="4">
+                            </td>
+                            <td>
+                                <label for="4">4</label>
+                            </td>
+                            <td>
+                                <input id="5" type="radio" name="rating" value="5">
+                            </td>
+                            <td>
+                                <label for="5">5</label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- </div>
+            <div id="btn1"> -->
+                <button type="submmit" id="btnSubmmit">Votar</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
