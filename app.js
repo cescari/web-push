@@ -35,8 +35,8 @@ app.listen(3000, function() {
   console.log('#       Proyecto: WEB push.                                               #');
   console.log('#       ALUMNO: Carlos Escario Bajo                                       #');
   console.log('###########################################################################');
-  console.log('Project app listening on port 3000!');
-	require("openurl").open("http://localhost:3000/");
+  console.log('Project app listening on port 8080!');
+	require("openurl").open("http://localhost:8080/");
 });
 
 app.use(bodyParser.urlencoded({
